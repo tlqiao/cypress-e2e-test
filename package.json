@@ -16,7 +16,7 @@
     "uploadFile": "cypress run --spec 'cypress/integration/e2e/action/uploadFile_spec.js'",
     "debugDemo": "cypress debug --spec 'cypress/integration/e2e/debug/debugDemo_spec.js' ",
     "getToken": "node cypress/integration/e2e/demo/testData/prepareBlogTestData.js",
-    "addComment": "cypress run --spec 'cypress/integration/e2e/demo/scenario/case/addBlogComment_spec.js'",
+    "addComment": "cypress run --headless --spec 'cypress/integration/e2e/demo/scenario/case/addBlogComment_spec.js'",
     "blogManageTestSuite": "cypress run --spec 'cypress/integration/e2e/demo/scenario/case/*_spec.js",
     "failedRetry": "export CYPRESS_RETRIES=2 && cypress run --headed --spec 'cypress/integration/e2e/retry/failedRetry_spec.js' "
 

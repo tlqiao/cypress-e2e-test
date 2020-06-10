@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-10T11:21:18.846Z",
+    "end": "2020-06-10T11:21:52.204Z",
+    "duration": 33358,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "84a4c2cc-2b6f-4535-9e8c-baad98b330e8",
+      "title": "",
+      "fullFile": "cypress/integration/e2e/demo/scenario/case/addBlogComment_spec.js",
+      "file": "cypress/integration/e2e/demo/scenario/case/addBlogComment_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d90625cf-d8f7-49d9-980e-d4d28f4f9e2c",
+          "title": "add comment for blog test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should add comment for blog successfully",
+              "fullTitle": "add comment for blog test should add comment for blog successfully",
+              "timedOut": null,
+              "duration": 29236,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "util.loginWithRegularUser();\nglobalFeedPage.goToGlobalFeed();\ntestDataManage.getLoginUserInfo('userInfo');\ncy.get('@userInfo').then(function (data) {\n  globalFeedPage.goToBlogDetailByAuthor(data.regular.username);\n});\nblogDetailsPage.addComment(\"this is comment\");\nblogDetailsPage.shouldAddCommentSuccessfully(\"this is comment\");",
+              "err": {},
+              "uuid": "327e3df0-3608-4bb0-bd47-11105f92697e",
+              "parentUUID": "d90625cf-d8f7-49d9-980e-d4d28f4f9e2c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "327e3df0-3608-4bb0-bd47-11105f92697e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 29236,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.0.1"
+    }
+  }
+}

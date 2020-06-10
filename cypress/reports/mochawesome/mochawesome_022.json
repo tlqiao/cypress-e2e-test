@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-05-08T09:26:45.107Z",
+    "end": "2020-05-08T09:26:45.347Z",
+    "duration": 240,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e5ddd763-17e5-4f26-bb45-5ed603070b21",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8acfdb2c-bbbb-437f-9c70-2357cc450551",
+          "title": "upload file demo",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should upload file successfully",
+              "fullTitle": "upload file demo should upload file successfully",
+              "timedOut": null,
+              "duration": 221,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://chercher.tech/practice/popups\");\ncy.get('input[type=\"file\"]').attachFile('.cypress/fixture/testdata/user.json');\ncy.wait(3000);",
+              "err": {
+                "message": "TypeError: cy.get(...).attachFile is not a function",
+                "estack": "TypeError: cy.get(...).attachFile is not a function\n    at Context.<anonymous> (http://localhost:54573/__cypress/tests?p=cypress/integration/e2e/action/uploadFile_spec.js-963:7:34)",
+                "diff": null
+              },
+              "uuid": "5dd74e71-f89d-4c99-a0a0-a9d50247ab43",
+              "parentUUID": "8acfdb2c-bbbb-437f-9c70-2357cc450551",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "5dd74e71-f89d-4c99-a0a0-a9d50247ab43"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 221,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.0.1"
+    }
+  }
+}

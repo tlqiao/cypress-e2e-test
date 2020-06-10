@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-11-26T09:09:01.032Z",
+    "end": "2019-11-26T09:09:37.172Z",
+    "duration": 36140,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1a1786fb-197d-47eb-843f-1d7e3fe332d7",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ef52b7d9-2d87-4fc8-acb0-59eb1b0bb46c",
+          "title": "practice assert element content",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "assert it",
+              "fullTitle": "practice assert element content assert it",
+              "timedOut": null,
+              "duration": 30316,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://angular.realworld.io\");\ncy.get('app-layout-header ul li a').eq(0).should('contain', 'Home');\ncy.get('app-layout-header ul li a').eq(1).should('contain', 'Sign in');\ncy.get('app-layout-header ul li a').eq(2).should('contain', 'Sign up');\ncy.get('app-layout-header ul li a[href=\"/login\"]').click();\ncy.get('[formcontrolname=email]').clear();\ncy.get('[formcontrolname=email]').type(\"e2etest@163.com\");\ncy.get('[formcontrolname=password]').clear();\ncy.get('[formcontrolname=password]').type(\"12345678\");\ncy.get('app-auth-page button[type=\"submit\"]').click();\ncy.get('app-layout-header ul li a').should('have.length', 4);\ncy.get('app-layout-header ul li a').eq(0).should('contain', 'Home');\ncy.get('app-layout-header ul li a').eq(1).should('contain', 'New Article');\ncy.get('app-layout-header ul li a').eq(2).should('contain', 'Settings');\ncy.get('app-layout-header ul li a').eq(3).should('contain', 'e2etest');\ncy.get('app-home-page li a').contains('Your Feed').should('have.class', 'active');\ncy.get('app-layout-header ul li a').contains('Sign in').should('not.exist');\ncy.get('app-layout-header ul li a').contains('Sign up').should('not.exist');\ncy.get('app-layout-header ul li a').contains('Settings').click();\ncy.get('app-settings-page h1').should('contain', 'Your Settings');\ncy.get('app-settings-page button[class=\"btn btn-outline-danger\"]').click();\ncy.get('app-home-page li a').contains('Global Feed').should('have.class', 'active');\ncy.get('app-layout-header ul li a').should('have.length', 3);\ncy.get('app-layout-header ul li a').contains('Home').should('exist');\ncy.get('app-layout-header ul li a').contains('Sign in').should('exist');\ncy.get('app-layout-header ul li a').contains('Sign up').should('exist');",
+              "err": {},
+              "uuid": "ce547cfa-886a-4d33-b30f-737d5ba6b7a8",
+              "parentUUID": "ef52b7d9-2d87-4fc8-acb0-59eb1b0bb46c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ce547cfa-886a-4d33-b30f-737d5ba6b7a8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30316,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.0.1"
+    }
+  }
+}

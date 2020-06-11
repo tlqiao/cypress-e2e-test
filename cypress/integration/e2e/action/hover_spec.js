@@ -1,13 +1,21 @@
-describe("hover demo",()=> {
-    it("should hover successfully", () => {
+describe("hover demo", () => {
+    it("should click successfully", () => {
+        Cypress.on('uncaught:exception', (err, runnable) => {
+            return false
+        });
+        cy.visit('https://chercher.tech/practice/popups');
+        cy.get('a[href="https://google.com"]').click({force: true})
+    })
+    it.only("should hover successfully", () => {
+        Cypress.on('uncaught:exception', (err, runnable) => {
+            return false
+        });
+        cy.visit('https://chercher.tech/practice/popups');
+        cy.get('#sub-menu').focus();
         ['mouseover', 'mouseout', 'mouseenter', 'mouseleave'].forEach((event) => {
-            it(`dispatches event: '${event}`, function () {
-                // if your app doesnt use jQuery then we use .trigger()
-                // https://on.cypress.io/trigger
-
-                cy.get('#no-jquery').trigger(event)
-                cy.get('#messages').should('contain', `the event ${event} was fired`)
-            })
-        })
+            cy.get('#sub-menu').trigger(`${event}`)
+        });
+        cy.wait(3000);
+        cy.get('a[href="https://google.com"]').click()
     });
 });

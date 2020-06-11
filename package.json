@@ -18,8 +18,8 @@
     "getToken": "node cypress/integration/e2e/demo/testData/prepareBlogTestData.js",
     "addComment": "cypress run --headless --spec 'cypress/integration/e2e/demo/scenario/case/addBlogComment_spec.js'",
     "blogManageTestSuite": "cypress run --spec 'cypress/integration/e2e/demo/scenario/case/*_spec.js",
-    "failedRetry": "export CYPRESS_RETRIES=2 && cypress run --headed --spec 'cypress/integration/e2e/retry/failedRetry_spec.js' "
-
+    "failedRetry": "export CYPRESS_RETRIES=2 && cypress run --headed --spec 'cypress/integration/e2e/retry/failedRetry_spec.js' ",
+    "hoverTest": "cypress run --spec 'cypress/integration/e2e/action/hover_spec.js' "
   },
   "author": "",
   "license": "ISC",

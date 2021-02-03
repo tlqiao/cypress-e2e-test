@@ -17,10 +17,11 @@ context('Actions', () => {
       .type('{del}{selectall}{backspace}')
 
       // .type() with key modifiers
+        // 添加注释
       .type('{alt}{option}') //these are equivalent
       .type('{ctrl}{control}') //these are equivalent
       .type('{meta}{command}{cmd}') //these are equivalent
-      .type('{shift}')
+        .type('test')
 
       // Delay each keypress by 0.1 sec
       .type('slow.typing@email.com', { delay: 100 })

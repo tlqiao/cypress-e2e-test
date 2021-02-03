@@ -1,7 +1,7 @@
 {
   "name": "com.github",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a test",
   "main": "index.js",
   "scripts": {    "cypressDebug": "DEBUG=cypress:* cypress open ",
     "basicCase": "cypress run --spec 'cypress/integration/e2e/basic/*_spec.js'",

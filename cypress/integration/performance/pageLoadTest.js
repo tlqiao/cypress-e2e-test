@@ -2,9 +2,16 @@ const {mkdir, exec } = require('shelljs');
 const path = require('path');
 const fs = require('fs');
 let pageUrlArray=[];
-let pageUrlFileBasePath='cypress/fixtures/testData/performance';
+//mac use
+//let pageUrlFileBasePath='cypress/fixtures/testData/performance';
+//windows use
+let pageUrlFileBasePath="cypress/fixtures/testData/performance";
 let pageUrlFileNameForBMC='BMCPageLoad.txt';
-let reportFileBasePathForBMC='cypress/reports/performance/BMC'
+//mac use
+//let reportFileBasePathForBMC='cypress/reports/performance/BMC';
+//windows use
+let reportFileBasePathForBMC="cypress/reports/performance/BMC";
+
 let reportFileBaseNameForBMC='BMCPageLoadReport_';
 
 function generatePageLoadReportForBMC(){

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "this is a test",
   "main": "index.js",
-  "scripts": {    "cypressDebug": "DEBUG=cypress:* cypress open ",
+  "scripts": {
+    "cypressOpen": "cypress open",
+    "cypressDebug": "DEBUG=cypress:* cypress open ",
     "basicCase": "cypress run --spec 'cypress/integration/e2e/basic/*_spec.js'",
     "autoWaitDemo": "cypress run --spec 'cypress/integration/e2e/basic/autoWaitDemo_spec.js' ",
     "loginDemo": "cypress run --browser='chrome' --spec 'cypress/integration/e2e/basic/autoWaitDemo_spec.js'",
@@ -18,7 +20,8 @@
     "addComment": "cypress run --headless --spec 'cypress/integration/e2e/demo/scenario/case/addBlogComment_spec.js'",
     "blogManageTestSuite": "cypress run --spec 'cypress/integration/e2e/demo/scenario/case/*_spec.js",
     "failedRetry": "export CYPRESS_RETRIES=2 && cypress run --headed --spec 'cypress/integration/e2e/retry/failedRetry_spec.js' ",
-    "hoverTest": "cypress run --spec 'cypress/integration/e2e/action/hover_spec.js' "
+    "hoverTest": "cypress run --spec 'cypress/integration/e2e/action/hover_spec.js' ",
+    "generatePageLoadReportForBMC": "run-func 'cypress/integration/performance/pageLoadTest.js' generatePageLoadReportForBMC"
   },
   "author": "",
   "license": "ISC",
@@ -34,6 +37,8 @@
     "mochawesome": "^4.1.0",
     "mochawesome-merge": "^2.1.0",
     "mochawesome-report-generator": "^4.0.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "lighthouse": "^9.1.0",
+    "lighthouse-batch": "^8.1.1"
   }
 }

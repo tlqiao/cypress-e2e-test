@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-12-22T09:48:49.063Z",
+    "end": "2020-12-22T09:48:54.551Z",
+    "duration": 5488,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fd7c7ee0-c90e-48b8-96ae-707870bb985b",
+      "title": "",
+      "fullFile": "cypress/integration/e2e/basic/failedCase_spec.js",
+      "file": "cypress/integration/e2e/basic/failedCase_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d3b926c7-70d2-43bd-af28-2d5435f5ae0e",
+          "title": "calculate test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should add correctly",
+              "fullTitle": "calculate test should add correctly",
+              "timedOut": null,
+              "duration": 4566,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"http://juliemr.github.io/protractor-demo/\");\ncy.get('input[ng-model=\"first\"]').type(3);\ncy.get('select[ng-model=\"operator\"]').select(\"ADDITIONSS\");\ncy.get('input[ng-model=\"second\"]').clear();\ncy.get('input[ng-model=\"second\"]').type(4);\ncy.get(\"#gobutton\").click();",
+              "err": {
+                "message": "CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `ADDITIONSS`\n\nhttps://on.cypress.io/select",
+                "estack": "CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `ADDITIONSS`\n\nhttps://on.cypress.io/select\n    at getOptions (http://juliemr.github.io/__cypress/runner/cypress_runner.js:152285:21)\n    at tryCatcher (http://juliemr.github.io/__cypress/runner/cypress_runner.js:9956:23)\n    at Function.Promise.attempt.Promise.try (http://juliemr.github.io/__cypress/runner/cypress_runner.js:7230:29)\n    at retryOptions (http://juliemr.github.io/__cypress/runner/cypress_runner.js:152323:30)\n    at tryCatcher (http://juliemr.github.io/__cypress/runner/cypress_runner.js:9956:23)\n    at Function.Promise.attempt.Promise.try (http://juliemr.github.io/__cypress/runner/cypress_runner.js:7230:29)\n    at tryFn (http://juliemr.github.io/__cypress/runner/cypress_runner.js:163481:24)\n    at whenStable (http://juliemr.github.io/__cypress/runner/cypress_runner.js:163522:12)\n    at http://juliemr.github.io/__cypress/runner/cypress_runner.js:163040:16\n    at tryCatcher (http://juliemr.github.io/__cypress/runner/cypress_runner.js:9956:23)\n    at Promise._settlePromiseFromHandler (http://juliemr.github.io/__cypress/runner/cypress_runner.js:7891:31)\n    at Promise._settlePromise (http://juliemr.github.io/__cypress/runner/cypress_runner.js:7948:18)\n    at Promise._settlePromise0 (http://juliemr.github.io/__cypress/runner/cypress_runner.js:7993:10)\n    at Promise._settlePromises (http://juliemr.github.io/__cypress/runner/cypress_runner.js:8073:18)\n    at Promise._fulfill (http://juliemr.github.io/__cypress/runner/cypress_runner.js:8017:18)\n    at http://juliemr.github.io/__cypress/runner/cypress_runner.js:9631:46\nFrom Your Spec Code:\n    at Context.eval (http://juliemr.github.io/__cypress/tests?p=cypress/integration/e2e/basic/failedCase_spec.js:8:43)",
+                "diff": null
+              },
+              "uuid": "5e8df8b0-ea37-4212-a8b9-c68e6dd9700d",
+              "parentUUID": "d3b926c7-70d2-43bd-af28-2d5435f5ae0e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "5e8df8b0-ea37-4212-a8b9-c68e6dd9700d"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4566,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-22T09:48:33.694Z",
+    "end": "2020-12-22T09:48:48.042Z",
+    "duration": 14348,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "223771ee-ac6d-487b-8692-f331a8ef88e2",
+      "title": "",
+      "fullFile": "cypress/integration/e2e/basic/calculateTest_spec.js",
+      "file": "cypress/integration/e2e/basic/calculateTest_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b4202677-3daf-4a53-9ca8-ddb1d8d6bfbf",
+          "title": "calculate test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "calculate test",
+              "fullTitle": "calculate test calculate test",
+              "timedOut": null,
+              "duration": 13318,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"http://juliemr.github.io/protractor-demo/\");\ncy.get('input[ng-model=\"first\"]').clear();\ncy.get('input[ng-model=\"first\"]').type(\"2\");\ncy.get('select[ng-model=\"operator\"]').select(\"ADDITION\");\ncy.get('input[ng-model=\"second\"]').clear();\ncy.get('input[ng-model=\"second\"]').type(\"3\");\ncy.get(\"#gobutton\").click();\ncy.get('h2').should(\"contain\", \"5\");\ncy.get(\"tbody tr\").first().find('td').last().should(\"contain\", \"5\");\ncy.get('input[ng-model=\"first\"]').type(\"3\");\ncy.get('select[ng-model=\"operator\"]').select(\"SUBTRACTION\");\ncy.get('input[ng-model=\"second\"]').type(\"4\");\ncy.get(\"#gobutton\").click();\ncy.get('h2').should(\"contain\", \"-1\");\ncy.get(\"tbody tr\").first().find('td').last().should(\"contain\", \"-1\");\ncy.get('input[ng-model=\"first\"]').type(\"3\");\ncy.get('select[ng-model=\"operator\"]').select(\"MULTIPLICATION\");\ncy.get('input[ng-model=\"second\"]').type(\"5\");\ncy.get(\"#gobutton\").click();\ncy.get('h2').should(\"contain\", \"15\");\ncy.get(\"tbody tr\").first().find('td').last().should(\"contain\", \"15\");\ncy.get('input[ng-model=\"first\"]').type(\"25\");\ncy.get('select[ng-model=\"operator\"]').select(\"DIVISION\");\ncy.get('input[ng-model=\"second\"]').type(\"5\");\ncy.get(\"#gobutton\").click();\ncy.get('h2').should(\"contain\", \"5\");\ncy.get(\"tbody tr\").first().find('td').last().should(\"contain\", \"5\");\ncy.get('input[ng-model=\"first\"]').type(\"25\");\ncy.get('select[ng-model=\"operator\"]').select(\"MODULO\");\ncy.get('input[ng-model=\"second\"]').type(\"6\");\ncy.get(\"#gobutton\").click();\ncy.get('h2').should(\"contain\", \"1\");\ncy.get(\"tbody tr\").first().find('td').last().should(\"contain\", \"1\");",
+              "err": {},
+              "uuid": "d55aca68-7751-4b16-8605-b03f051fb74e",
+              "parentUUID": "b4202677-3daf-4a53-9ca8-ddb1d8d6bfbf",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d55aca68-7751-4b16-8605-b03f051fb74e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13318,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-22T09:50:11.539Z",
+    "end": "2020-12-22T09:50:16.383Z",
+    "duration": 4844,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0e11a9f3-472c-4bfa-916a-3995338efe07",
+      "title": "",
+      "fullFile": "cypress/integration/e2e/basic/findElement_spec.js",
+      "file": "cypress/integration/e2e/basic/findElement_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab8b7999-6fc3-4237-9f95-913526bb03a6",
+          "title": "query element demo",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "query element test",
+              "fullTitle": "query element demo query element test",
+              "timedOut": null,
+              "duration": 2899,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://angular.realworld.io\");\ncy.get('app-layout-header ul li a[href=\"/login\"]').click();\ncy.get('app-layout-header ul li>a[href=\"/login\"]').click();\ncy.get('app-layout-header a[href=\"/login\"]').click();\ncy.get('app-layout-header .nav-item a[href=\"/login\"]').click();\ncy.get('[href=\"/login\"]').click();\ncy.contains(\"Sign in\").click();\ncy.get('app-layout-header').find('li a[href=\"/login\"]').click();\ncy.get('app-layout-header li').children('a[href=\"/login\"]').click();\ncy.get('a[href=\"/login\"]').parent('li').should(\"have.class\", \"nav-item\");\ncy.get('app-layout-header li a').eq(1).click();\ncy.get('app-layout-header li a').first().click();\ncy.get('app-layout-header li a').last().click();\ncy.get('app-layout-header li a').first().should(\"have.attr\", \"routerlink\");",
+              "err": {},
+              "uuid": "033a4beb-5b69-490c-9779-e8197e61fca4",
+              "parentUUID": "ab8b7999-6fc3-4237-9f95-913526bb03a6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "033a4beb-5b69-490c-9779-e8197e61fca4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2899,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

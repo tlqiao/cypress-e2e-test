@@ -5,12 +5,12 @@ let pageUrlArray=[];
 //mac use
 //let pageUrlFileBasePath='cypress/fixtures/testData/performance';
 //windows use
-let pageUrlFileBasePath='\cypress\fixtures\testData\performance';
+let pageUrlFileBasePath='\\cypress\\fixtures\\testData\\performance';
 let pageUrlFileNameForBMC='BMCPageLoad.txt';
 //mac use
 //let reportFileBasePathForBMC='cypress/reports/performance/BMC';
 //windows use
-let reportFileBasePathForBMC='\cypress\reports\performance\BMC';
+let reportFileBasePathForBMC='\\cypress\\reports\\performance\\BMC';
 let reportFileBaseNameForBMC='BMCPageLoadReport_';
 
 function generatePageLoadReportForBMC(){

@@ -25,7 +25,19 @@
     "generateScenario1ReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generateScenario1ReportForBMC",
     "generateScenario2ReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generateScenario2ReportForBMC",
     "generateScenario3ReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generateScenario3ReportForBMC",
-    "generateScenario4ReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generateScenario4ReportForBMC"
+    "generateScenario4ReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generateScenario4ReportForBMC",
+
+    "generatePageLoadReportForNature": "run-func cypress/integration/performance/getReportForNature.js generatePageLoadReportForNature",
+    "generateScenario1ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario1ReportForNature",
+    "generateScenario2ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario2ReportForNature",
+    "generateScenario3ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario3ReportForNature",
+    "generateScenario4ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario4ReportForNature",
+
+    "generatePageLoadReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generatePageLoadReportForSpringerLink",
+    "generateScenario1ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario1ReportForSpringerLink",
+    "generateScenario2ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario2ReportForSpringerLink",
+    "generateScenario3ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario3ReportForSpringerLink",
+    "generateScenario4ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario4ReportForSpringerLink"
   },
   "author": "",
   "license": "ISC",

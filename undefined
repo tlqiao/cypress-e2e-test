@@ -11513,142 +11513,142 @@
       "lighthouse-core/audits/seo/manual/structured-data.js | description": [
         "audits[structured-data].description"
       ],
-      "lighthouse-core/config/default-config.js | performanceCategoryTitle": [
+      "lighthouse-core/config/default-config.json | performanceCategoryTitle": [
         "categories.performance.title"
       ],
-      "lighthouse-core/config/default-config.js | a11yCategoryTitle": [
+      "lighthouse-core/config/default-config.json | a11yCategoryTitle": [
         "categories.accessibility.title"
       ],
-      "lighthouse-core/config/default-config.js | a11yCategoryDescription": [
+      "lighthouse-core/config/default-config.json | a11yCategoryDescription": [
         "categories.accessibility.description"
       ],
-      "lighthouse-core/config/default-config.js | a11yCategoryManualDescription": [
+      "lighthouse-core/config/default-config.json | a11yCategoryManualDescription": [
         "categories.accessibility.manualDescription"
       ],
-      "lighthouse-core/config/default-config.js | bestPracticesCategoryTitle": [
+      "lighthouse-core/config/default-config.json | bestPracticesCategoryTitle": [
         "categories[best-practices].title"
       ],
-      "lighthouse-core/config/default-config.js | seoCategoryTitle": [
+      "lighthouse-core/config/default-config.json | seoCategoryTitle": [
         "categories.seo.title"
       ],
-      "lighthouse-core/config/default-config.js | seoCategoryDescription": [
+      "lighthouse-core/config/default-config.json | seoCategoryDescription": [
         "categories.seo.description"
       ],
-      "lighthouse-core/config/default-config.js | seoCategoryManualDescription": [
+      "lighthouse-core/config/default-config.json | seoCategoryManualDescription": [
         "categories.seo.manualDescription"
       ],
-      "lighthouse-core/config/default-config.js | pwaCategoryTitle": [
+      "lighthouse-core/config/default-config.json | pwaCategoryTitle": [
         "categories.pwa.title"
       ],
-      "lighthouse-core/config/default-config.js | pwaCategoryDescription": [
+      "lighthouse-core/config/default-config.json | pwaCategoryDescription": [
         "categories.pwa.description"
       ],
-      "lighthouse-core/config/default-config.js | pwaCategoryManualDescription": [
+      "lighthouse-core/config/default-config.json | pwaCategoryManualDescription": [
         "categories.pwa.manualDescription"
       ],
-      "lighthouse-core/config/default-config.js | metricGroupTitle": [
+      "lighthouse-core/config/default-config.json | metricGroupTitle": [
         "categoryGroups.metrics.title"
       ],
-      "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": [
+      "lighthouse-core/config/default-config.json | loadOpportunitiesGroupTitle": [
         "categoryGroups[load-opportunities].title"
       ],
-      "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": [
+      "lighthouse-core/config/default-config.json | loadOpportunitiesGroupDescription": [
         "categoryGroups[load-opportunities].description"
       ],
-      "lighthouse-core/config/default-config.js | budgetsGroupTitle": [
+      "lighthouse-core/config/default-config.json | budgetsGroupTitle": [
         "categoryGroups.budgets.title"
       ],
-      "lighthouse-core/config/default-config.js | budgetsGroupDescription": [
+      "lighthouse-core/config/default-config.json | budgetsGroupDescription": [
         "categoryGroups.budgets.description"
       ],
-      "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": [
+      "lighthouse-core/config/default-config.json | diagnosticsGroupTitle": [
         "categoryGroups.diagnostics.title"
       ],
-      "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": [
+      "lighthouse-core/config/default-config.json | diagnosticsGroupDescription": [
         "categoryGroups.diagnostics.description"
       ],
-      "lighthouse-core/config/default-config.js | pwaInstallableGroupTitle": [
+      "lighthouse-core/config/default-config.json | pwaInstallableGroupTitle": [
         "categoryGroups[pwa-installable].title"
       ],
-      "lighthouse-core/config/default-config.js | pwaOptimizedGroupTitle": [
+      "lighthouse-core/config/default-config.json | pwaOptimizedGroupTitle": [
         "categoryGroups[pwa-optimized].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yBestPracticesGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yBestPracticesGroupTitle": [
         "categoryGroups[a11y-best-practices].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yBestPracticesGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yBestPracticesGroupDescription": [
         "categoryGroups[a11y-best-practices].description"
       ],
-      "lighthouse-core/config/default-config.js | a11yColorContrastGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yColorContrastGroupTitle": [
         "categoryGroups[a11y-color-contrast].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yColorContrastGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yColorContrastGroupDescription": [
         "categoryGroups[a11y-color-contrast].description"
       ],
-      "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yNamesLabelsGroupTitle": [
         "categoryGroups[a11y-names-labels].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yNamesLabelsGroupDescription": [
         "categoryGroups[a11y-names-labels].description"
       ],
-      "lighthouse-core/config/default-config.js | a11yNavigationGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yNavigationGroupTitle": [
         "categoryGroups[a11y-navigation].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yNavigationGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yNavigationGroupDescription": [
         "categoryGroups[a11y-navigation].description"
       ],
-      "lighthouse-core/config/default-config.js | a11yAriaGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yAriaGroupTitle": [
         "categoryGroups[a11y-aria].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yAriaGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yAriaGroupDescription": [
         "categoryGroups[a11y-aria].description"
       ],
-      "lighthouse-core/config/default-config.js | a11yLanguageGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yLanguageGroupTitle": [
         "categoryGroups[a11y-language].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yLanguageGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yLanguageGroupDescription": [
         "categoryGroups[a11y-language].description"
       ],
-      "lighthouse-core/config/default-config.js | a11yAudioVideoGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yAudioVideoGroupTitle": [
         "categoryGroups[a11y-audio-video].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yAudioVideoGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yAudioVideoGroupDescription": [
         "categoryGroups[a11y-audio-video].description"
       ],
-      "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupTitle": [
+      "lighthouse-core/config/default-config.json | a11yTablesListsVideoGroupTitle": [
         "categoryGroups[a11y-tables-lists].title"
       ],
-      "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupDescription": [
+      "lighthouse-core/config/default-config.json | a11yTablesListsVideoGroupDescription": [
         "categoryGroups[a11y-tables-lists].description"
       ],
-      "lighthouse-core/config/default-config.js | seoMobileGroupTitle": [
+      "lighthouse-core/config/default-config.json | seoMobileGroupTitle": [
         "categoryGroups[seo-mobile].title"
       ],
-      "lighthouse-core/config/default-config.js | seoMobileGroupDescription": [
+      "lighthouse-core/config/default-config.json | seoMobileGroupDescription": [
         "categoryGroups[seo-mobile].description"
       ],
-      "lighthouse-core/config/default-config.js | seoContentGroupTitle": [
+      "lighthouse-core/config/default-config.json | seoContentGroupTitle": [
         "categoryGroups[seo-content].title"
       ],
-      "lighthouse-core/config/default-config.js | seoContentGroupDescription": [
+      "lighthouse-core/config/default-config.json | seoContentGroupDescription": [
         "categoryGroups[seo-content].description"
       ],
-      "lighthouse-core/config/default-config.js | seoCrawlingGroupTitle": [
+      "lighthouse-core/config/default-config.json | seoCrawlingGroupTitle": [
         "categoryGroups[seo-crawl].title"
       ],
-      "lighthouse-core/config/default-config.js | seoCrawlingGroupDescription": [
+      "lighthouse-core/config/default-config.json | seoCrawlingGroupDescription": [
         "categoryGroups[seo-crawl].description"
       ],
-      "lighthouse-core/config/default-config.js | bestPracticesTrustSafetyGroupTitle": [
+      "lighthouse-core/config/default-config.json | bestPracticesTrustSafetyGroupTitle": [
         "categoryGroups[best-practices-trust-safety].title"
       ],
-      "lighthouse-core/config/default-config.js | bestPracticesUXGroupTitle": [
+      "lighthouse-core/config/default-config.json | bestPracticesUXGroupTitle": [
         "categoryGroups[best-practices-ux].title"
       ],
-      "lighthouse-core/config/default-config.js | bestPracticesBrowserCompatGroupTitle": [
+      "lighthouse-core/config/default-config.json | bestPracticesBrowserCompatGroupTitle": [
         "categoryGroups[best-practices-browser-compat].title"
       ],
-      "lighthouse-core/config/default-config.js | bestPracticesGeneralGroupTitle": [
+      "lighthouse-core/config/default-config.json | bestPracticesGeneralGroupTitle": [
         "categoryGroups[best-practices-general].title"
       ]
     }

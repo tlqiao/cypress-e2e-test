@@ -1,0 +1,34 @@
+{ "isWindows": true,
+  "windows": {
+    "bmcPageUrl": {
+      "pageLoad": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\pageLoad.txt",
+      "scenario1": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\scenario1.txt",
+      "scenario2": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\scenario2.txt",
+      "scenario3": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\scenario3.txt",
+      "scenario4": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\scenario4.txt"
+    },
+    "bmcReportPath": {
+      "pageLoad": "\\cypress\\reports\\performance\\bmc\\pageLoad\\BMCPageLoadReport_",
+      "scenario1": "\\cypress\\reports\\performance\\bmc\\scenario1\\scenario1Report_",
+      "scenario2": "\\cypress\\reports\\performance\\bmc\\scenario2\\scenario2Report_",
+      "scenario3": "\\cypress\\reports\\performance\\bmc\\scenario3\\scenario3Report_",
+      "scenario4": "\\cypress\\reports\\performance\\bmc\\scenario4\\scenario4Report_"
+    }
+  },
+  "macOrLinux": {
+    "bmcPageUrl": {
+      "pageLoad": "/cypress/fixtures/testData/performance/bmcPageUrl/pageLoad.txt",
+      "scenario1": "/cypress/fixtures/testData/performance/bmcPageUrl/scenario1.txt",
+      "scenario2": "/cypress/fixtures/testData/performance/bmcPageUrl/scenario2.txt",
+      "scenario3": "/cypress/fixtures/testData/performance/bmcPageUrl/scenario3.txt",
+      "scenario4": "/cypress/fixtures/testData/performance/bmcPageUrl/scenario4.txt"
+    },
+    "bmcReportPath": {
+      "pageLoad": "/cypress/reports/performance/bmc/pageLoad/BMCPageLoadReport_",
+      "scenario1": "/cypress/reports/performance/bmc/scenario1/scenario1Report_",
+      "scenario2": "/cypress/reports/performance/bmc/scenario2/scenario2Report_",
+      "scenario3": "/cypress/reports/performance/bmc/scenario3/scenario3Report_",
+      "scenario4": "/cypress/reports/performance/bmc/scenario4/scenario4Report_"
+    }
+  }
+}

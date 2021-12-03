@@ -18,7 +18,7 @@ function generatePageLoadReportForBMC(){
 }
 function generateReport(pageUrlFileBasePath,pageUrlFileName,reportFileBasePath,reportFileBaseName){
     console.log("---check and clear old report---");
-    setupBeforeTest(reportFileBasePath)
+   // setupBeforeTest(reportFileBasePath)
     console.log("---begin to test with lighthouse---");
     let PageUrlFilePath=path.join(path.resolve(),pageUrlFileBasePath,pageUrlFileName);
     fs.readFile( PageUrlFilePath,function(err, data) {
@@ -48,7 +48,7 @@ function setupBeforeTest(reportFileBasePath){
             console.log("Folder Deleted!");
         });
     } else {
-        console.log('report folder does exist, create it');
+        console.log('report folder does not exist, create it');
         mkdir(path.join(path.resolve(),reportFileBasePath));
     }
 }

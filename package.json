@@ -21,6 +21,7 @@
     "blogManageTestSuite": "cypress run --spec 'cypress/integration/e2e/demo/scenario/case/*_spec.js",
     "failedRetry": "export CYPRESS_RETRIES=2 && cypress run --headed --spec 'cypress/integration/e2e/retry/failedRetry_spec.js' ",
     "hoverTest": "cypress run --spec 'cypress/integration/e2e/action/hover_spec.js' ",
+    "removeReportFile": "run-func cypress/integration/performance/removeReportFile.js deleteReport",
     "generatePageLoadReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generatePageLoadReportForBMC",
     "generateScenario1ReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generateScenario1ReportForBMC",
     "generateScenario2ReportForBMC": "run-func cypress/integration/performance/getReportForBmc.js generateScenario2ReportForBMC",

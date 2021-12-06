@@ -31,25 +31,6 @@ function runLightHouse(pageUrl, reportPath) {
     exec(command);
 }
 
-// function setupBeforeTest(reportFileBasePath) {
-//     let reportFolderPath = path.join(path.resolve(), reportFileBasePath);
-//     if (fs.existsSync(reportFolderPath)) {
-//         console.log('report folder exist');
-//         fs.rmdir(reportFolderPath, () => {
-//             console.log("Folder Deleted!");
-//         });
-//     } else {
-//         console.log('report folder does not exist, create it');
-//         mkdir(path.join(path.resolve(), reportFileBasePath));
-//     }
-// }
-//
-// function summaryTestTime(reportPath) {
-//     let data = JSON.parse(fs.readFileSync(reportPath, 'utf-8'));
-//     console.log(data);
-//     console.log(data.audits.metrics.details.items.speedIndex);
-// }
-
 module.exports = {
     generateReport: generateReport,
     getConfigs: getConfigs,

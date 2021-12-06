@@ -1,5 +1,5 @@
 {
-  "isWindows": true,
+  "isWindows": false,
   "windows": {
     "bmcPageUrl": {
       "pageLoad": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\pageLoad.txt",
@@ -42,7 +42,8 @@
       "scenario2": "\\cypress\\reports\\performance\\springerLink\\scenario2\\scenario2Report_",
       "scenario3": "\\cypress\\reports\\performance\\springerLink\\scenario3\\scenario3Report_",
       "scenario4": "\\cypress\\reports\\performance\\springerLink\\scenario4\\scenario4Report_"
-    }
+    },
+    "reportFolderPath": "\\cypress\\reports\\performance"
   },
   "macOrLinux": {
     "bmcPageUrl": {
@@ -86,6 +87,7 @@
       "scenario2": "/cypress/reports/performance/springerLink/scenario2/scenario2Report_",
       "scenario3": "/cypress/reports/performance/springerLink/scenario3/scenario3Report_",
       "scenario4": "/cypress/reports/performance/springerLink/scenario4/scenario4Report_"
-    }
+    },
+    "reportFolderPath": "/cypress/reports/performance"
   }
 }

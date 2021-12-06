@@ -9,11 +9,11 @@
       "scenario4": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\scenario4.txt"
     },
     "bmcReportPath": {
-      "pageLoad": "\\cypress\\reports\\performance\\bmc\\pageLoad\\bmcPageLoadReport_",
-      "scenario1": "\\cypress\\reports\\performance\\bmc\\scenario1\\scenario1Report_",
-      "scenario2": "\\cypress\\reports\\performance\\bmc\\scenario2\\scenario2Report_",
-      "scenario3": "\\cypress\\reports\\performance\\bmc\\scenario3\\scenario3Report_",
-      "scenario4": "\\cypress\\reports\\performance\\bmc\\scenario4\\scenario4Report_"
+      "pageLoad": "\\cypress\\report\\performance\\bmc\\pageLoad\\bmcPageLoadReport_",
+      "scenario1": "\\cypress\\report\\performance\\bmc\\scenario1\\scenario1Report_",
+      "scenario2": "\\cypress\\report\\performance\\bmc\\scenario2\\scenario2Report_",
+      "scenario3": "\\cypress\\report\\performance\\bmc\\scenario3\\scenario3Report_",
+      "scenario4": "\\cypress\\report\\performance\\bmc\\scenario4\\scenario4Report_"
     },
     "naturePageUrl": {
       "pageLoad": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\pageLoad.txt",
@@ -23,11 +23,11 @@
       "scenario4": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario4.txt"
     },
     "natureReportPath": {
-      "pageLoad": "\\cypress\\reports\\performance\\nature\\pageLoad\\naturePageLoadReport_",
-      "scenario1": "\\cypress\\reports\\performance\\nature\\scenario1\\scenario1Report_",
-      "scenario2": "\\cypress\\reports\\performance\\nature\\scenario2\\scenario2Report_",
-      "scenario3": "\\cypress\\reports\\performance\\nature\\scenario3\\scenario3Report_",
-      "scenario4": "\\cypress\\reports\\performance\\nature\\scenario4\\scenario4Report_"
+      "pageLoad": "\\cypress\\report\\performance\\nature\\pageLoad\\naturePageLoadReport_",
+      "scenario1": "\\cypress\\report\\performance\\nature\\scenario1\\scenario1Report_",
+      "scenario2": "\\cypress\\report\\performance\\nature\\scenario2\\scenario2Report_",
+      "scenario3": "\\cypress\\report\\performance\\nature\\scenario3\\scenario3Report_",
+      "scenario4": "\\cypress\\report\\performance\\nature\\scenario4\\scenario4Report_"
     },
     "springerLinkPageUrl": {
       "pageLoad": "\\cypress\\fixtures\\testData\\performance\\springerLinkPageUrl\\pageLoad.txt",
@@ -37,13 +37,13 @@
       "scenario4": "\\cypress\\fixtures\\testData\\performance\\springerLinkPageUrl\\scenario4.txt"
     },
     "springerLinkReportPath": {
-      "pageLoad": "\\cypress\\reports\\performance\\springerLink\\pageLoad\\springerLinkPageLoadReport_",
-      "scenario1": "\\cypress\\reports\\performance\\springerLink\\scenario1\\scenario1Report_",
-      "scenario2": "\\cypress\\reports\\performance\\springerLink\\scenario2\\scenario2Report_",
-      "scenario3": "\\cypress\\reports\\performance\\springerLink\\scenario3\\scenario3Report_",
-      "scenario4": "\\cypress\\reports\\performance\\springerLink\\scenario4\\scenario4Report_"
+      "pageLoad": "\\cypress\\report\\performance\\springerLink\\pageLoad\\springerLinkPageLoadReport_",
+      "scenario1": "\\cypress\\report\\performance\\springerLink\\scenario1\\scenario1Report_",
+      "scenario2": "\\cypress\\report\\performance\\springerLink\\scenario2\\scenario2Report_",
+      "scenario3": "\\cypress\\report\\performance\\springerLink\\scenario3\\scenario3Report_",
+      "scenario4": "\\cypress\\report\\performance\\springerLink\\scenario4\\scenario4Report_"
     },
-    "reportFolderPath": "\\cypress\\reports\\performance"
+    "reportFolderPath": "\\cypress\\report\\performance"
   },
   "macOrLinux": {
     "bmcPageUrl": {
@@ -54,11 +54,11 @@
       "scenario4": "/cypress/fixtures/testData/performance/bmcPageUrl/scenario4.txt"
     },
     "bmcReportPath": {
-      "pageLoad": "/cypress/reports/performance/bmc/pageLoad/bmcPageLoadReport_",
-      "scenario1": "/cypress/reports/performance/bmc/scenario1/scenario1Report_",
-      "scenario2": "/cypress/reports/performance/bmc/scenario2/scenario2Report_",
-      "scenario3": "/cypress/reports/performance/bmc/scenario3/scenario3Report_",
-      "scenario4": "/cypress/reports/performance/bmc/scenario4/scenario4Report_"
+      "pageLoad": "/cypress/report/performance/bmc/pageLoad/bmcPageLoadReport_",
+      "scenario1": "/cypress/report/performance/bmc/scenario1/scenario1Report_",
+      "scenario2": "/cypress/report/performance/bmc/scenario2/scenario2Report_",
+      "scenario3": "/cypress/report/performance/bmc/scenario3/scenario3Report_",
+      "scenario4": "/cypress/report/performance/bmc/scenario4/scenario4Report_"
     },
     "naturePageUrl": {
       "pageLoad": "/cypress/fixtures/testData/performance/naturePageUrl/pageLoad.txt",
@@ -68,11 +68,11 @@
       "scenario4": "/cypress/fixtures/testData/performance/naturePageUrl/scenario4.txt"
     },
     "natureReportPath": {
-      "pageLoad": "/cypress/reports/performance/nature/pageLoad/naturePageLoadReport_",
-      "scenario1": "/cypress/reports/performance/nature/scenario1/scenario1Report_",
-      "scenario2": "/cypress/reports/performance/nature/scenario2/scenario2Report_",
-      "scenario3": "/cypress/reports/performance/nature/scenario3/scenario3Report_",
-      "scenario4": "/cypress/reports/performance/nature/scenario4/scenario4Report_"
+      "pageLoad": "/cypress/report/performance/nature/pageLoad/naturePageLoadReport_",
+      "scenario1": "/cypress/report/performance/nature/scenario1/scenario1Report_",
+      "scenario2": "/cypress/report/performance/nature/scenario2/scenario2Report_",
+      "scenario3": "/cypress/report/performance/nature/scenario3/scenario3Report_",
+      "scenario4": "/cypress/report/performance/nature/scenario4/scenario4Report_"
     },
     "springerLinkPageUrl": {
       "pageLoad": "/cypress/fixtures/testData/performance/springerLinkPageUrl/pageLoad.txt",
@@ -82,12 +82,12 @@
       "scenario4": "/cypress/fixtures/testData/performance/springerLinkPageUrl/scenario4.txt"
     },
     "springerLinkReportPath": {
-      "pageLoad": "/cypress/reports/performance/springerLink/pageLoad/springerLinkPageLoadReport_",
-      "scenario1": "/cypress/reports/performance/springerLink/scenario1/scenario1Report_",
-      "scenario2": "/cypress/reports/performance/springerLink/scenario2/scenario2Report_",
-      "scenario3": "/cypress/reports/performance/springerLink/scenario3/scenario3Report_",
-      "scenario4": "/cypress/reports/performance/springerLink/scenario4/scenario4Report_"
+      "pageLoad": "/cypress/report/performance/springerLink/pageLoad/springerLinkPageLoadReport_",
+      "scenario1": "/cypress/report/performance/springerLink/scenario1/scenario1Report_",
+      "scenario2": "/cypress/report/performance/springerLink/scenario2/scenario2Report_",
+      "scenario3": "/cypress/report/performance/springerLink/scenario3/scenario3Report_",
+      "scenario4": "/cypress/report/performance/springerLink/scenario4/scenario4Report_"
     },
-    "reportFolderPath": "/cypress/reports/performance"
+    "reportFolderPath": "/cypress/report/performance"
   }
 }

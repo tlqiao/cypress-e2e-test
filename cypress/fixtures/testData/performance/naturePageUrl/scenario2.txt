@@ -1,3 +1,2 @@
-https://www.biomedcentral.com/journals
-https://www.biomedcentral.com/journals#Biomedicine
-https://actaneurocomms.biomedcentral.com/
+https://www.nature.com/search/advanced
+https://www.nature.com/search?q=carbon%20neutral&journals=Nature&order=relevance&date_range=-2007

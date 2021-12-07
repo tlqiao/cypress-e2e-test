@@ -20,14 +20,22 @@
       "scenario1": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario1.txt",
       "scenario2": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario2.txt",
       "scenario3": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario3.txt",
-      "scenario4": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario4.txt"
+      "scenario4": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario4.txt",
+      "scenario5": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario5.txt",
+      "scenario6": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario6.txt",
+      "scenario7": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario7.txt",
+      "scenario8": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario8.txt"
     },
     "natureReportPath": {
       "pageLoad": "\\cypress\\result\\performance\\nature\\pageLoad\\naturePageLoadReport_",
       "scenario1": "\\cypress\\result\\performance\\nature\\scenario1\\scenario1Report_",
       "scenario2": "\\cypress\\result\\performance\\nature\\scenario2\\scenario2Report_",
       "scenario3": "\\cypress\\result\\performance\\nature\\scenario3\\scenario3Report_",
-      "scenario4": "\\cypress\\result\\performance\\nature\\scenario4\\scenario4Report_"
+      "scenario4": "\\cypress\\result\\performance\\nature\\scenario4\\scenario4Report_",
+      "scenario5": "\\cypress\\result\\performance\\nature\\scenario4\\scenario5Report_",
+      "scenario6": "\\cypress\\result\\performance\\nature\\scenario4\\scenario6Report_",
+      "scenario7": "\\cypress\\result\\performance\\nature\\scenario4\\scenario7Report_",
+      "scenario8": "\\cypress\\result\\performance\\nature\\scenario4\\scenario8Report_"
     },
     "springerLinkPageUrl": {
       "pageLoad": "\\cypress\\fixtures\\testData\\performance\\springerLinkPageUrl\\pageLoad.txt",
@@ -45,7 +53,7 @@
     },
     "resultFolderPath": "\\cypress\\result\\performance"
   },
-  "macOrLinux": {
+  "mac": {
     "bmcPageUrl": {
       "pageLoad": "/cypress/fixtures/testData/performance/bmcPageUrl/pageLoad.txt",
       "scenario1": "/cypress/fixtures/testData/performance/bmcPageUrl/scenario1.txt",
@@ -65,14 +73,22 @@
       "scenario1": "/cypress/fixtures/testData/performance/naturePageUrl/scenario1.txt",
       "scenario2": "/cypress/fixtures/testData/performance/naturePageUrl/scenario2.txt",
       "scenario3": "/cypress/fixtures/testData/performance/naturePageUrl/scenario3.txt",
-      "scenario4": "/cypress/fixtures/testData/performance/naturePageUrl/scenario4.txt"
+      "scenario4": "/cypress/fixtures/testData/performance/naturePageUrl/scenario4.txt",
+      "scenario5": "/cypress/fixtures/testData/performance/naturePageUrl/scenario5.txt",
+      "scenario6": "/cypress/fixtures/testData/performance/naturePageUrl/scenario6.txt",
+      "scenario7": "/cypress/fixtures/testData/performance/naturePageUrl/scenario7.txt",
+      "scenario8": "/cypress/fixtures/testData/performance/naturePageUrl/scenario8.txt"
     },
     "natureReportPath": {
       "pageLoad": "/cypress/result/performance/nature/pageLoad/naturePageLoadReport_",
       "scenario1": "/cypress/result/performance/nature/scenario1/scenario1Report_",
       "scenario2": "/cypress/result/performance/nature/scenario2/scenario2Report_",
       "scenario3": "/cypress/result/performance/nature/scenario3/scenario3result_",
-      "scenario4": "/cypress/result/performance/nature/scenario4/scenario4result_"
+      "scenario4": "/cypress/result/performance/nature/scenario4/scenario4result_",
+      "scenario5": "/cypress/result/performance/nature/scenario4/scenario5result_",
+      "scenario6": "/cypress/result/performance/nature/scenario4/scenario6result_",
+      "scenario7": "/cypress/result/performance/nature/scenario4/scenario7result_",
+      "scenario8": "/cypress/result/performance/nature/scenario4/scenario8result_"
     },
     "springerLinkPageUrl": {
       "pageLoad": "/cypress/fixtures/testData/performance/springerLinkPageUrl/pageLoad.txt",

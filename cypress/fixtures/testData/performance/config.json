@@ -53,7 +53,7 @@
     },
     "resultFolderPath": "\\cypress\\result\\performance"
   },
-  "mac": {
+  "macOrLinux": {
     "bmcPageUrl": {
       "pageLoad": "/cypress/fixtures/testData/performance/bmcPageUrl/pageLoad.txt",
       "scenario1": "/cypress/fixtures/testData/performance/bmcPageUrl/scenario1.txt",

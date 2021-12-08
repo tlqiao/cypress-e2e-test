@@ -1,3 +1,4 @@
-https://www.biomedcentral.com/search?query=&searchType=publisherSearch
-https://pathogeneticsjournal.biomedcentral.com/articles/10.1186/1755-8417-1-1
-https://pathogeneticsjournal.biomedcentral.com/track/pdf/10.1186/1755-8417-1-1.pdf
+https://link.springer.com/chapter/10.1007/978-3-030-82420-4_4
+https://order.springer.com/public/login
+https://order.springer.com/public/verify#sprcom-login-form
+https://order-payment.springer.com/payment?referenceToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZlcmVuY2VDb2RlIjoiUFJGLVA1Ni1YREIifQ.yI0cXxgbUfoPKiniTRRUL3GLpgNW8RNn8j0uSBZ_mDE&_locale=en

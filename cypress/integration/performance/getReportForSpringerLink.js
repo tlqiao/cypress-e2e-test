@@ -1,6 +1,15 @@
 const generate = require('./generateReport');
 let configs;
 
+function generateScenario5ReportForSpringerLink() {
+    configs=generate.getConfigs();
+    if (configs.isWindows) {
+        generate.generateReport(configs.windows.springerLinkPageUrl.scenario5, configs.windows.springerLinkReportPath.scenario5);
+    } else {
+        generate.generateReport(configs.macOrLinux.springerLinkPageUrl.scenario5, configs.macOrLinux.springerLinkReportPath.scenario5);
+    }
+}
+
 function generateScenario4ReportForSpringerLink() {
     configs=generate.getConfigs();
     if (configs.isWindows) {

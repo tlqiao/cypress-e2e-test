@@ -1,5 +1,5 @@
 {
-  "isWindows": true,
+  "isWindows": false,
   "windows": {
     "bmcPageUrl": {
       "pageLoad": "\\cypress\\fixtures\\testData\\performance\\bmcPageUrl\\pageLoad.txt",

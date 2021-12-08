@@ -36,7 +36,6 @@
     "generateScenario5ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario5ReportForNature",
     "generateScenario6ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario6ReportForNature",
     "generateScenario7ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario7ReportForNature",
-    "generateScenario8ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario8ReportForNature",
 
     "generatePageLoadReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generatePageLoadReportForSpringerLink",
     "generateScenario1ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario1ReportForSpringerLink",

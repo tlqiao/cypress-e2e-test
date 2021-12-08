@@ -23,8 +23,7 @@
       "scenario4": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario4.txt",
       "scenario5": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario5.txt",
       "scenario6": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario6.txt",
-      "scenario7": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario7.txt",
-      "scenario8": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario8.txt"
+      "scenario7": "\\cypress\\fixtures\\testData\\performance\\naturePageUrl\\scenario7.txt"
     },
     "natureReportPath": {
       "pageLoad": "\\cypress\\result\\performance\\nature\\pageLoad\\naturePageLoadReport_",
@@ -34,8 +33,7 @@
       "scenario4": "\\cypress\\result\\performance\\nature\\scenario4\\scenario4Report_",
       "scenario5": "\\cypress\\result\\performance\\nature\\scenario5\\scenario5Report_",
       "scenario6": "\\cypress\\result\\performance\\nature\\scenario6\\scenario6Report_",
-      "scenario7": "\\cypress\\result\\performance\\nature\\scenario7\\scenario7Report_",
-      "scenario8": "\\cypress\\result\\performance\\nature\\scenario8\\scenario8Report_"
+      "scenario7": "\\cypress\\result\\performance\\nature\\scenario7\\scenario7Report_"
     },
     "springerLinkPageUrl": {
       "pageLoad": "\\cypress\\fixtures\\testData\\performance\\springerLinkPageUrl\\pageLoad.txt",
@@ -79,8 +77,7 @@
       "scenario4": "/cypress/fixtures/testData/performance/naturePageUrl/scenario4.txt",
       "scenario5": "/cypress/fixtures/testData/performance/naturePageUrl/scenario5.txt",
       "scenario6": "/cypress/fixtures/testData/performance/naturePageUrl/scenario6.txt",
-      "scenario7": "/cypress/fixtures/testData/performance/naturePageUrl/scenario7.txt",
-      "scenario8": "/cypress/fixtures/testData/performance/naturePageUrl/scenario8.txt"
+      "scenario7": "/cypress/fixtures/testData/performance/naturePageUrl/scenario7.txt"
     },
     "natureReportPath": {
       "pageLoad": "/cypress/result/performance/nature/pageLoad/naturePageLoadReport_",
@@ -90,8 +87,7 @@
       "scenario4": "/cypress/result/performance/nature/scenario4/scenario4result_",
       "scenario5": "/cypress/result/performance/nature/scenario5/scenario5result_",
       "scenario6": "/cypress/result/performance/nature/scenario6/scenario6result_",
-      "scenario7": "/cypress/result/performance/nature/scenario7/scenario7result_",
-      "scenario8": "/cypress/result/performance/nature/scenario8/scenario8result_"
+      "scenario7": "/cypress/result/performance/nature/scenario7/scenario7result_"
     },
     "springerLinkPageUrl": {
       "pageLoad": "/cypress/fixtures/testData/performance/springerLinkPageUrl/pageLoad.txt",

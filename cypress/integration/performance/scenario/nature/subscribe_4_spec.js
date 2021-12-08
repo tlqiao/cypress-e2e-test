@@ -12,3 +12,4 @@ describe("scenario_004  for Nature test", () => {
         cy.get('button[id="submitAddress"]').click();
     })
 });
+// maybe error, execute it manually if error

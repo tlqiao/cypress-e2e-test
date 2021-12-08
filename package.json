@@ -33,12 +33,17 @@
     "generateScenario2ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario2ReportForNature",
     "generateScenario3ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario3ReportForNature",
     "generateScenario4ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario4ReportForNature",
+    "generateScenario5ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario5ReportForNature",
+    "generateScenario6ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario6ReportForNature",
+    "generateScenario7ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario7ReportForNature",
+    "generateScenario8ReportForNature": "run-func cypress/integration/performance/getReportForNature.js generateScenario8ReportForNature",
 
     "generatePageLoadReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generatePageLoadReportForSpringerLink",
     "generateScenario1ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario1ReportForSpringerLink",
     "generateScenario2ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario2ReportForSpringerLink",
     "generateScenario3ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario3ReportForSpringerLink",
-    "generateScenario4ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario4ReportForSpringerLink"
+    "generateScenario4ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario4ReportForSpringerLink",
+    "generateScenario5ReportForSpringerLink": "run-func cypress/integration/performance/getReportForSpringerLink.js generateScenario5ReportForSpringerLink"
   },
   "author": "",
   "license": "ISC",

@@ -61,6 +61,7 @@ module.exports = {
     generateScenario1ReportForSpringerLink: generateScenario1ReportForSpringerLink,
     generateScenario2ReportForSpringerLink: generateScenario2ReportForSpringerLink,
     generateScenario3ReportForSpringerLink: generateScenario3ReportForSpringerLink,
-    generateScenario4ReportForSpringerLink: generateScenario4ReportForSpringerLink
+    generateScenario4ReportForSpringerLink: generateScenario4ReportForSpringerLink,
+    generateScenario5ReportForSpringerLink: generateScenario5ReportForSpringerLink
 };
 

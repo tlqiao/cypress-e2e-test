@@ -1,6 +1,38 @@
 const generate = require('./generateReport');
 let configs;
 
+function generateScenario8ReportForNature() {
+    configs=generate.getConfigs();
+    if (configs.isWindows) {
+        generate.generateReport(configs.windows.naturePageUrl.scenario8, configs.windows.natureReportPath.scenario8);
+    } else {
+        generate.generateReport(configs.macOrLinux.naturePageUrl.scenario8, configs.macOrLinux.natureReportPath.scenario8);
+    }
+}
+function generateScenario7ReportForNature() {
+    configs=generate.getConfigs();
+    if (configs.isWindows) {
+        generate.generateReport(configs.windows.naturePageUrl.scenario7, configs.windows.natureReportPath.scenario7);
+    } else {
+        generate.generateReport(configs.macOrLinux.naturePageUrl.scenario7, configs.macOrLinux.natureReportPath.scenario7);
+    }
+}
+function generateScenario6ReportForNature() {
+    configs=generate.getConfigs();
+    if (configs.isWindows) {
+        generate.generateReport(configs.windows.naturePageUrl.scenario6, configs.windows.natureReportPath.scenario6);
+    } else {
+        generate.generateReport(configs.macOrLinux.naturePageUrl.scenario6, configs.macOrLinux.natureReportPath.scenario6);
+    }
+}
+function generateScenario5ReportForNature() {
+    configs=generate.getConfigs();
+    if (configs.isWindows) {
+        generate.generateReport(configs.windows.naturePageUrl.scenario5, configs.windows.natureReportPath.scenario5);
+    } else {
+        generate.generateReport(configs.macOrLinux.naturePageUrl.scenario5, configs.macOrLinux.natureReportPath.scenario5);
+    }
+}
 function generateScenario4ReportForNature() {
     configs=generate.getConfigs();
     if (configs.isWindows) {
@@ -52,6 +84,10 @@ module.exports = {
     generateScenario1ReportForNature: generateScenario1ReportForNature,
     generateScenario2ReportForNature: generateScenario2ReportForNature,
     generateScenario3ReportForNature: generateScenario3ReportForNature,
-    generateScenario4ReportForNature: generateScenario4ReportForNature
+    generateScenario4ReportForNature: generateScenario4ReportForNature,
+    generateScenario5ReportForNature: generateScenario5ReportForNature,
+    generateScenario6ReportForNature: generateScenario6ReportForNature,
+    generateScenario7ReportForNature: generateScenario7ReportForNature,
+    generateScenario8ReportForNature: generateScenario8ReportForNature
 };
 

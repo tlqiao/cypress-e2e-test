@@ -2,7 +2,7 @@ describe("scenario_003 for springerLink test", () => {
     it("Buy Books", () => {
         cy.visit("https://link.springer.com/chapter/10.1007/978-3-030-82420-4_4");
         cy.contains('Log in')
-        cy.get('button[data-track-label="buy ebook"]').click()
+        cy.get('button[data-track-label="buy ebook"]').click({force: true})
         cy.url().should('include','login')
         cy.get('input[id="login-form-email"]').type('yiran.zhang@thoughtworks.com')
         cy.get('input[id="login-form-password"]').type('zyrqwer123')

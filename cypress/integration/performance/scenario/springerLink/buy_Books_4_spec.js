@@ -1,4 +1,4 @@
-describe("scenario_003 for springerLink test", () => {
+describe("scenario_004 for springerLink test", () => {
     it("Buy Books", () => {
         cy.visit("https://link.springer.com/chapter/10.1007/978-3-030-82420-4_4");
         cy.contains('Log in')

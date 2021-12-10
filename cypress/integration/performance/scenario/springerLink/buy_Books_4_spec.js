@@ -9,8 +9,8 @@ describe("scenario_004 for springerLink test", () => {
         cy.get('button span[class=" shell "]').contains('Log In').click()
         cy.contains('Place your order')
         cy.get('span').contains('Credit card').click()
-        // cy.get('button span[class=" shell "]').contains('Buy now').click({force: true})
-        // cy.contains('Payment details')
+        cy.get('button span[class=" shell "]').contains('Buy now').click({force: true})
+        cy.contains('Payment details')
 
     })
 });

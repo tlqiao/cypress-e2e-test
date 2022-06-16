@@ -4,7 +4,8 @@ const prepareBlogTestData = require('../../testData/prepareBlogTestData');
 const testDataManage = require('../../testData/testDataManage');
 describe("favorite blog test", () => {
     beforeEach('prepare blog for test', () => {
-        prepareBlogTestData.createBlogWithRegularUser();
+        let randomNumber = util.getRandomNum(1000,99999);
+        prepareBlogTestData.createBlogWithRegularUser("articleTitle"+randomNumber);
     });
         it("should favorite blog successfully", () => {
             util.loginWithRegularUser();

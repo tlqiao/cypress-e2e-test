@@ -1,10 +1,10 @@
 const util = require('../helper/util');
 const testDataMange = require('../testData/testDataManage');
 const configManage = require('../config/configManage');
-function createBlogWithRegularUser(){
+function createBlogWithRegularUser(articleTitle){
 testDataMange.getLoginUserInfo('loginUser');
     cy.get('@loginUser').then((data) => {
-        util.getToken(data.regular.email,data.regular.password)
+        util.getToken(data.regular.email,data.regular.password,articleTitle)
             .then((token)=> {
                 cy.request({
                     method: 'POST',
@@ -15,7 +15,7 @@ testDataMange.getLoginUserInfo('loginUser');
                     body: {
                         "article": {
                             "tagList": [],
-                            "title": "testTitle",
+                            "title": articleTitle,
                             "description": "test",
                             "body": "test"
                         }

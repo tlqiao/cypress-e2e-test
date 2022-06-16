@@ -7,7 +7,8 @@ const testDataManage = require('../../testData/testDataManage');
 describe("add comment for blog test", () => {
     beforeEach('prepare blog for test', () => {
         //准备测试数据
-        prepareBlogTestData.createBlogWithRegularUser();
+        let randomNumber = util.getRandomNum(1000,99999);
+        prepareBlogTestData.createBlogWithRegularUser("articleTitle"+randomNumber);
     });
     it("should add comment for blog successfully", () => {
         //执行测试案例

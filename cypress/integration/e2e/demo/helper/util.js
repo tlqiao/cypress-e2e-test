@@ -27,7 +27,15 @@ function loginWithRegularUser() {
     });
     cy.get('app-auth-page button[type="submit"]').click();
 }
+
+function getRandomNum(Min,Max)
+{
+    let Range = Max - Min;
+    let Rand = Math.random();
+    return(Min + Math.round(Rand * Range));
+}
 module.exports = {
     getToken:getToken,
-    loginWithRegularUser:loginWithRegularUser
+    loginWithRegularUser:loginWithRegularUser,
+    getRandomNum: getRandomNum
 };
